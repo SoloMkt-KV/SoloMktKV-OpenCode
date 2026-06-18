@@ -1,0 +1,40 @@
+{
+  "name": "generator-kv",
+  "version": "0.1.0",
+  "description": "Generate SoloMkt-KV marketing key visual poster images through a guided OpenCode/Codex workflow.",
+  "author": {
+    "name": "SoloMkt-KV",
+    "url": "https://github.com/SoloMkt-KV"
+  },
+  "homepage": "https://github.com/SoloMkt-KV/SoloMktKV-OpenCode",
+  "repository": "https://github.com/SoloMkt-KV/SoloMktKV-OpenCode.git",
+  "license": "MIT",
+  "keywords": [
+    "solomkt",
+    "kv",
+    "poster",
+    "marketing",
+    "generation",
+    "opencode"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Generator-KV",
+    "shortDescription": "Generate SoloMkt-KV marketing key visuals from natural language.",
+    "longDescription": "Generator-KV helps users configure a SoloMkt-KV API key, validates the configuration, fetches the latest available models before every request, guides model selection, collects required activity fields, and calls the generateKV API with a friendly 10-minute generation timeout.",
+    "developerName": "SoloMkt-KV",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Network",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/SoloMkt-KV/SoloMktKV-OpenCode",
+    "defaultPrompt": [
+      "Use Generator-KV to configure my API key.",
+      "List SoloMkt-KV models before generating a KV.",
+      "Generate an event KV poster from my activity details."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
